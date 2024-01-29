@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href= "../CSS/loadingpage.css">
+        <link rel="stylesheet" href= "../CSS/normalize.css">
+        <title> Loading Page </title>
+        <script src="../JS/loadingpage.js"></script>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    </head>
+    <body>
+        <div class="textElement">
+            <h1> I'm... <h1>
+            <h1><span class="auto-type1"></span></h1>
+        </div>
+        <div class = "loader_container">
+            <div class = "loader"></div>
+        </div>
+        <span id='progress'> 0% </span>
+        
+        <!-- setting auto type -->
+        <script>
+          //var count = 0;
+            var typed = new Typed(".auto-type1", {
+            strings: ["Ambitious", "Resilient", "Optimistic"],
+            typeSpeed: 28,
+            backSpeed: 15,
+            loop: true
+            });
+        </script>
+    </body>
+</html>

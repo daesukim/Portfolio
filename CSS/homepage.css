@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #212121;
+    color: #EAEAEA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.nav{
+    width: 100%;
+    margin-top:55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    width: 100%;
+    line-height: 20vh;
+    font-size: 90px;
+    font-weight: 800;
+    
+}
+
+ul li{
+    list-style: none;
+    text-align: center;
+}
+
+ul li a{
+    position: relative;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: transparent;
+    -webkit-text-stroke: 2.5px #14FFEC;
+}
+
+ul li a::before{
+    content: attr(data-text);
+    position: absolute;
+    color: #14FFEC;
+    width: 0%;
+    overflow: hidden;
+    transition: 1s;
+}
+
+ul li a:hover::before{
+    width: 100%;
+    filter: drop-shadow(0 0 20px #14FFEC) brightness(120%);
+    transform: translateY(-10px) translateX(3px);
+}
+
+
+.main{
+    width: 100%;
+    height: 100%;
+}
+
+.logo{
+    position: absolute;
+    margin-left: 28px;
+    margin-top: 20px;
+    width:70px;
+    height:100px;
+    background-image: url("../Image/logo_final.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 999;
+}
+
+
+.image{
+    margin-left: 20px;
+    width: 100%;
+    height: 100%;
+    background-image: url("../Image/profile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-filter: grayscale(100%);
+    display: none;
+}
+
+@media screen and (min-width: 1100px){
+    .image{
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 1100px){
+    .nav{
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 600px){
+    ul{
+        font-size: 14vw;
+        line-height: 13vh;
+    }  
+}
+
+@media screen and (max-width: 500px){
+    ul{
+        line-height: 13vh;
+    }  
+
+    .nav{
+        margin-top:0px;
+    }
+}
+

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href= "../CSS/project.css">
+    <link rel="stylesheet" href= "../CSS/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../JS/aboutpage.js"></script>
+    <title>About Page</title>
+</head>
+<body>
+    <!-- logo and nav section -->
+    <a href="homepage.html"><div class="logo"></div></a>
+    <div class="nav_container">
+        <div class="topnav" id="myTopnav">
+            <a class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="aboutpage.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="project.html">Project</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+        var nav = document.getElementById("myTopnav");
+        if (nav.className === "topnav") {
+            nav.className += " responsive";
+        } else {
+            nav.className = "topnav";
+        }
+        }
+    </script>
+    <!-- End of logo and nav section -->
+
+    <!-- Main Content -->
+    <div class = "main">
+        <div class = "section">
+            <img src="../Image/capstone.png" alt="capstone_image" width="250px" height="250px">
+            <div class = "description">
+                <div class = "header"> <a href="https://cgi.luddy.indiana.edu/~team25/project/view_recipe.php"><p> Capstone Project </p></a> </div>
+                <p> The United States leads globally in food wastage, 
+                    discarding 60 million tons annually—equivalent to 325 pounds per person. 
+                    Food constitutes 22% of US landfills, contributing to harmful greenhouse gas emissions. 
+                    Despite consumer aspirations for responsible purchasing, 
+                    insufficient grocery shopping foresight leads to significant waste. 
+                    We advocate for an integrated system addressing this. 
+                    Considering users' dietary needs, our proposal generates personalized weekly meal plans and grocery lists, 
+                    fostering sustainability and reducing individual food waste substantially.
+                </p>
+                <p style = "color: #808080;"> #HTML #CSS #PHP #Javascript #API #Project Management </p>
+                <div class = "description_link"> <a href="https://cgi.luddy.indiana.edu/~team25/project/view_recipe.php"><p> Click to view </p></a> </div>
+            </div>
+        </div>
+        <div class = "section">
+            <div class = "description">
+                <div class = "header"> <a href="#"><p> Java Projects </p></a> </div>
+                <p> This repository encompasses a range of Java projects undertaken during courses at Indiana University, 
+                    spanning from simple to complex endeavors. Among these, the Data Structure project stands out as a personal favorite. 
+                    It involved the implementation of customized 'List' structures, facilitating tasks such as finding the shortest path to a destination. 
+                    This project not only showcased the versatility of Java but also provided an engaging opportunity to apply data structures in practical problem-solving contexts.
+                </p>
+                <p style = "color: #808080;"> #Java </p>
+                <div class = "description_link"> <a href="#"><p> Click to view </p></a> </div>
+            </div>
+            <img src="../Image/java.jpg" alt="Flowers in Chania" width="250px" height="250px">
+        </div>
+        <div class = "section">
+            <img src="../Image/analytic.jpg" alt="Flowers in Chania" width="250px" height="250px">
+            <div class = "description">
+                <div class = "header"> <a href="www.google.com"><p> Phython Project </p></a> </div>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut blanditiis,earum minima amet accusamus commodi magni repudiandae officia porro iste odio nostrum quae ipsa perferendis aspernatur numquam! Modi, sit similique.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut blanditiis,earum minima amet accusamus commodi magni repudiandae officia porro iste odio nostrum quae ipsa perferendis aspernatur numquam! Modi, sit similique.
+                </p>
+                <div class = "description_link"> <a href="www.google.com"><p> Click to view </p></a> </div>
+            </div>
+        </div>
+        <div class = "section">
+            <div class = "description">
+                <div class = "header"> <a href="https://cgi.luddy.indiana.edu/~kimdaes/arduino/intro.html"><p> Arduino Project </p></a> </div>
+                <p> I have long yearned for a lamp that automatically illuminates when my room darkens and gracefully dims in the presence of brightness. 
+                    Through the integration of a photoresistor, I've fulfilled this desire, 
+                    crafting a lamp that adeptly gauges the room's luminance. 
+                    This intelligent fixture seamlessly tailors its glow, 
+                    responding to ambient light conditions with precision. 
+                    The result is not just added convenience but also enhanced energy efficiency, 
+                    making it a harmonious blend of practicality and sustainability.
+                </p>
+                <p style = "color: #808080;"> #Arduino #Fusion360 </p>
+                <div class = "description_link"> <a href="https://cgi.luddy.indiana.edu/~kimdaes/arduino/intro.html"><p> Click to view </p></a> </div>
+            </div>
+            <img src="../Image/arduino.jpg" alt="arduino_project" width="250px" height="250px">
+        </div>
+    </div>
+    <!-- footer -->
+    <div class = "footer">
+        <div class = "logos">
+            <div class = "logos_container">
+                <div class = "element">
+                    <img src="../Image/github.png" alt="github-mark">
+                </div>
+                <div class = "element">
+                    <img src="../Image/linked.png" alt="github-mark">
+                </div>
+                
+                <div class = "element">
+                    <img src="../Image/instagram.png" alt="github-mark">
+                </div>
+                
+                <div class = "element">
+                    <img src="../Image/facebook.png" alt="github-mark">
+                </div>
+            </div>
+        </div>
+        <div class = "footer_bottom">
+            <div class = "nav_tab">
+                <a href="aboutpage.html"><p> About </p></a>
+            </div>
+            <div class = "homepage_title">
+                <a href="skills.html"><p> Skills </p></a>
+            </div>
+            <div class = "contact">
+                <a href="contact.html"><p> Contact </p></a>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href= "../CSS/skills.css">
+    <link rel="stylesheet" href= "../CSS/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../JS/aboutpage.js"></script>
+    <title>Skills Page</title>
+</head>
+<body>
+  <!-- logo and nav section -->
+  <a href="homepage.html"><div class="logo"></div></a>
+  <div class="nav_container">
+      <div class="topnav" id="myTopnav">
+          <a class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+          </a>
+          <a href="aboutpage.html">About</a>
+          <a href="skills.html">Skills</a>
+          <a href="project.html">Project</a>
+          <a href="contact.html">Contact</a>
+      </div>
+  </div>
+  <script>
+      function myFunction() {
+      var nav = document.getElementById("myTopnav");
+      if (nav.className === "topnav") {
+          nav.className += " responsive";
+      } else {
+          nav.className = "topnav";
+      }
+      }
+  </script>
+  <!-- End of logo and nav section -->
+    <!-- main part -->
+    <div class = "main">
+      <div class = "left">
+        <div class = "skills">
+          <h2>HTML</h2>
+          <div class="progress-bar">
+            <div class = "html"><span>72%</span></div>
+          </div>
+          <h2>CSS</h2>
+          <div class="progress-bar">
+            <div class = "css"><span>75%</span></div>
+          </div>
+          <h2>JavaScript</h2>
+          <div class="progress-bar">
+            <div class = "javascript"><span>52%</span></div>
+          </div>
+          <h2>PHP</h2>
+          <div class="progress-bar">
+            <div class = "php"><span>70%</span></div>
+          </div>
+          <h2>MySQL</h2>
+          <div class="progress-bar">
+            <div class = "mysql"><span>75%</span></div>
+          </div>
+          <h2>Java</h2>
+          <div class="progress-bar">
+            <div class = "java"><span>80%</span></div>
+          </div>
+          <h2>Python</h2>
+          <div class="progress-bar">
+            <div class = "python"><span>70%</span></div>
+          </div>
+        </div>
+      </div>
+      <div class = "right"></div>
+    </div>
+  </div>
+
+
+  <!-- footer -->
+  <div class = "footer">
+    <div class = "logos">
+        <div class = "logos_container">
+            <div class = "element">
+                <img src="../Image/github.png" alt="github-mark">
+            </div>
+            <div class = "element">
+                <img src="../Image/linked.png" alt="github-mark">
+            </div>
+            
+            <div class = "element">
+                <img src="../Image/instagram.png" alt="github-mark">
+            </div>
+            
+            <div class = "element">
+                <img src="../Image/facebook.png" alt="github-mark">
+            </div>
+        </div>
+    </div>
+    <div class = "footer_bottom">
+        <div class = "nav_tab">
+            <a href="aboutpage.html"><p> About </p></a>
+        </div>
+        <div class = "homepage_title">
+            <a href="skills.html"><p> Skills </p></a>
+        </div>
+        <div class = "contact">
+            <a href="contact.html"><p> Contact </p></a>
+        </div>
+    </div>
+</div>
+ 
+</body>
+</html>

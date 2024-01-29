@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href= "../CSS/aboutpage.css">
+    <link rel="stylesheet" href= "../CSS/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'>
+    <script src="../JS/aboutpage.js"></script>
+    <title>About Page</title>
+</head>
+<body>
+  <!-- logo and nav section -->
+  <a href="homepage.html"><div class="logo"></div></a>
+  <div class="nav_container">
+      <div class="topnav" id="myTopnav">
+          <a class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+          </a>
+          <a href="aboutpage.html">About</a>
+          <a href="skills.html">Skills</a>
+          <a href="project.html">Project</a>
+          <a href="contact.html">Contact</a>
+      </div>
+  </div>
+  <script>
+      function myFunction() {
+      var nav = document.getElementById("myTopnav");
+      if (nav.className === "topnav") {
+          nav.className += " responsive";
+      } else {
+          nav.className = "topnav";
+      }
+      }
+  </script>
+  <!-- End of logo and nav section -->
+
+  <!-- main part -->
+  <div class = "main">
+    <div class = "left">
+      <div class = "intro">
+        <p> HELLO </p>
+        <p> I AM <span style="color: aqua; font-family: 'League Spartan';">DAESU KIM</span></p>
+        <p class = "responsive_hide" id = "major"> Major in Informatics / Cognate in Computer Science </p>
+        <p class = "responsive_view" id = "major"> Major in Informatics </p>
+        <p class = "responsive_view" id = "major"> Cognate in Computer Science </p>
+      </div>
+      <div class = "left_bottom">
+        <blockquote class = "blockquote--bordered blockquote--quoted">
+          <p class = "blockquote__text"> Two roads diverged in a wood, and I, I took the one less travelled by, and that has made all the difference.</p>
+          <p class = "blockquote__text--credit">&mdash; Robert Frost</p>
+        </blockquote>
+      </div>
+    </div>
+    <div class = "right">
+      <div class = "image">
+      </div>
+    </div>
+  </div>
+  <div class = "section" style="margin-top: 5;">
+    <h1> Top Project </h1>
+    <p style="color: #d4d4d4" id = "responsive_p"> Capstone project requires informatics students to integrate and apply knowledge and skills acquired throughout the academic program to address problems </p>
+    <div class = "project_box">
+      <div class = "project_detail">
+        <div class = "project_detail_section">
+          <div class = "detail_part"><i class="fa fa-cloud" style="margin-right: 10px;"></i><p style = "font-weight: 700;"> Fully Responsive </p></div>
+          <p> Compatibility meets innovation; our designs adapt seamlessly to all devices, ensuring a perfect user experience across various platforms and screen sizes. </p>
+        </div>
+        <div class = "project_detail_section">
+          <div class = "detail_part"><i class="fa fa-handshake-o" style="margin-right: 10px;"></i><p style = "font-weight: 700;"> Team Collabortation </p></div>
+          <p> Through open communication and collective efforts, we ensure that each team member's strengths contribute to the cohesive design and implementation of projects. </p>
+        </div>  
+        <div class = "project_detail_section">
+          <div class = "detail_part"><i class="fa fa-lightbulb-o" style="margin-right: 10px;"></i><p style = "font-weight: 700;"> UI & UX Design </p></div>
+          <p> Focuses on creating intuitive and visually appealing user interfaces (UI) coupled with a thoughtful user experience (UX) design. </p>
+        </div>    
+      </div>
+      <div class = "project_image">
+
+      </div>
+    </div>
+  </div>
+  <div class = "section">
+    <h1> Capabilities </h1>
+    <p style="color: #d4d4d4" id = "responsive_p"> From technical proficiency to creative innovation. For more detailed information, please visit <a href="skills.html">Skills</a> and <a href="project.html">Project</a> </p>
+    <div class = "capabilities_container">
+      <div class = "capability">
+        <i class="fa fa-desktop" style="margin-bottom: 20px; color:white; font-size: 30px;"></i>
+        <p style="line-height: 2; font-weight: 700;"> Web Development </p>
+        <p> Merges technical expertise with creative innovation in crafting dynamic and user-friendly websites and applications. </p>
+      </div>
+      <div class = "capability">
+        <i class="fa fa-code" style="margin-bottom: 20px; color:white; font-size: 30px;"></i>
+        <p style="line-height: 2; font-weight: 700;"> Software Developement </p>
+        <p> Specializes in creating efficient and innovative software solutions, combining technical expertise with creative problem-solving. </p>
+      </div>
+      <div class = "capability">
+        <i class="fa fa-user-o" style="margin-bottom: 20px; color:white; font-size: 30px;"></i>
+        <p style="line-height: 2; font-weight: 700;"> Project Management </p>
+        <p> Ensures seamless coordination, efficient resource allocation, and timely delivery of projects. </p>
+      </div>
+    </div>
+  </div>
+  <div class = "section">
+    <h1 style="text-align: center;"> Honors </h1>
+    <div class = "awards_container">
+      <div class = "award">
+        <div class = "award_image"></div>
+        <br>
+        <p style="text-align: center; font-weight: 700; font-size: 20px;"> FALL 2022 </p>
+      </div>
+      <div class = "award">
+        <div class = "award_image"></div>
+        <br>
+        <p style="text-align: center; font-weight: 700; font-size: 20px;"> SPRING 2023 </p>
+      </div>
+      <div class = "award">
+        <div class = "award_image"></div>
+        <br>
+        <p style="text-align: center; font-weight: 700; font-size: 20px;"> FALL 2023 </p>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <div class = "footer">
+    <div class = "logos">
+        <div class = "logos_container">
+            <div class = "element">
+                <img src="../Image/github.png" alt="github-mark">
+            </div>
+            <div class = "element">
+                <img src="../Image/linked.png" alt="github-mark">
+            </div>
+            
+            <div class = "element">
+                <img src="../Image/instagram.png" alt="github-mark">
+            </div>
+            
+            <div class = "element">
+                <img src="../Image/facebook.png" alt="github-mark">
+            </div>
+        </div>
+    </div>
+    <div class = "footer_bottom">
+        <div class = "nav_tab">
+            <a href="aboutpage.html"><p> About </p></a>
+        </div>
+        <div class = "homepage_title">
+            <a href="skills.html"><p> Skills </p></a>
+        </div>
+        <div class = "contact">
+            <a href="contact.html"><p> Contact </p></a>
+        </div>
+    </div>
+  </div>  
+</body>
+</html>
