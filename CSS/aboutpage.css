@@ -304,6 +304,7 @@ blockquote p{
 
 .section a{
   color: white;
+  text-decoration: none;
 }
 
 .section a:hover{
